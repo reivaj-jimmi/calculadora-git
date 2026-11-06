@@ -5,13 +5,11 @@ def presentacion():
     print("  CALCULADORA MODULAR EN PYTHON     ")
     print("====================================")
 
-if __name__ == "__main__":
-    presentacion()# calculadora.py
+def sumar(a, b):
+    return a + b
 
-def presentacion():
-    print("====================================")
-    print("  CALCULADORA MODULAR EN PYTHON     ")
-    print("====================================")
+def restar(a, b):
+    return a - b
 
 if __name__ == "__main__":
     presentacion()
